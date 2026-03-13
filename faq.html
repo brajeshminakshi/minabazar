@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINABAZAR FAQ</title>
+    <style>
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+        .active, .collapsible:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h2>MINABAZAR FAQ</h2>
+
+    <button class="collapsible">Delivery</button>
+    <div class="content">
+        <p>Q: What are the delivery options available?<br>A: We offer standard and express delivery options. Choose at checkout.</p>
+        <p>Q: How can I track my order?<br>A: Once your order is shipped, you will receive a tracking number via email.</p>
+    </div>
+
+    <button class="collapsible">Returns</button>
+    <div class="content">
+        <p>Q: What is the return policy?<br>A: You can return items within 30 days of receiving them.</p>
+        <p>Q: How do I initiate a return?<br>A: Please contact our customer service with your order details to initiate a return.</p>
+    </div>
+
+    <button class="collapsible">Sizing</button>
+    <div class="content">
+        <p>Q: How do I choose the right size?<br>A: Refer to our sizing chart available on each product page.</p>
+        <p>Q: What if I need a different size?<br>A: You can exchange your item for a different size within the return period.</p>
+    </div>
+
+    <button class="collapsible">Payment</button>
+    <div class="content">
+        <p>Q: What payment methods are accepted?<br>A: We accept credit cards, PayPal, and direct bank transfers.</p>
+        <p>Q: Is my payment information secure?<br>A: Yes, we use SSL encryption to protect your payment information.</p>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
