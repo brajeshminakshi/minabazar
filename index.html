@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINABAZAR Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar sticky">
+        <div class="logo">MINABAZAR</div>
+        <div class="cta"><a href="https://wa.me/1234567890" target="_blank">WhatsApp Us</a></div>
+    </nav>
+
+    <header class="hero">
+        <h1>Welcome to MINABAZAR</h1>
+        <p>Your one-stop shop for everything!</p>
+    </header>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">Product 1</div>
+            <div class="product">Product 2</div>
+            <div class="product">Product 3</div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How it Works</h2>
+        <p>Step 1: Choose a product.</p>
+        <p>Step 2: Add it to your cart.</p>
+        <p>Step 3: Checkout securely.</p>
+    </section>
+
+    <script>
+        gsap.from('.hero', { duration: 1, y: -100, opacity: 0 });
+        gsap.from('.featured-products', { duration: 1, x: -100, opacity: 0, delay: 0.5 });
+    </script>
+</body>
+</html>
