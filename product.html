@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-detail">
+        <div class="image-gallery">
+            <img id="large-image" src="/images/default-product.jpg" alt="Product Image">
+            <div class="thumbnails">
+                <img src="/images/thumb1.jpg" alt="Thumbnail 1" onclick="changeImage('/images/thumb1.jpg')">
+                <img src="/images/thumb2.jpg" alt="Thumbnail 2" onclick="changeImage('/images/thumb2.jpg')">
+                <img src="/images/thumb3.jpg" alt="Thumbnail 3" onclick="changeImage('/images/thumb3.jpg')">
+            </div>
+        </div>
+        <div class="product-info">
+            <h1 id="product-title">Product Title</h1>
+            <p id="product-description">Product description goes here.</p>
+            <div class="size-selector">
+                <label for="size">Select Size:</label>
+                <select id="size">
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            </div>
+            <div class="color-selector">
+                <label for="color">Select Color:</label>
+                <select id="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://wa.me/?text=Interested in product ID: ID_PLACEHOLDER" class="whatsapp-cta">WhatsApp</a>
+                <a href="tel:+1234567890" class="call-cta">Call</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function changeImage(imagePath) {
+            document.getElementById('large-image').src = imagePath;
+        }
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        document.querySelector('.whatsapp-cta').href = `https://wa.me/?text=Interested in product ID: ${productId}`;
+        // Fetch product details using productId and update the page accordingly.
+    </script>
+</body>
+</html>
