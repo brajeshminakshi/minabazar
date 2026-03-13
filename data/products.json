@@ -1,0 +1,156 @@
+[  
+  {  
+    "product_code": "P001",  
+    "product_name": "Elegant Summer Dress",  
+    "category": "Dresses",  
+    "price": 49.99,  
+    "image_url": "https://example.com/images/product1.jpg",  
+    "sizes": ["S", "M", "L"],  
+    "colors": ["Red", "Blue", "Green"],  
+    "rating": 4.5,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P002",  
+    "product_name": "Casual Kurti",  
+    "category": "Kurtis",  
+    "price": 29.99,  
+    "image_url": "https://example.com/images/product2.jpg",  
+    "sizes": ["M", "L", "XL"],  
+    "colors": ["Yellow", "Pink"],  
+    "rating": 4.0,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P003",  
+    "product_name": "Stylish Top",  
+    "category": "Tops",  
+    "price": 35.00,  
+    "image_url": "https://example.com/images/product3.jpg",  
+    "sizes": ["S", "M", "L", "XL"],  
+    "colors": ["Black", "White", "Gray"],  
+    "rating": 4.2,  
+    "instant_delivery": false  
+  },  
+  {  
+    "product_code": "P004",  
+    "product_name": "Comfortable Sandals",  
+    "category": "Sandals",  
+    "price": 39.99,  
+    "image_url": "https://example.com/images/product4.jpg",  
+    "sizes": ["7", "8", "9"],  
+    "colors": ["Brown", "Black"],  
+    "rating": 4.3,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P005",  
+    "product_name": "Party Dress",  
+    "category": "Dresses",  
+    "price": 79.99,  
+    "image_url": "https://example.com/images/product5.jpg",  
+    "sizes": ["M", "L"],  
+    "colors": ["Gold", "Silver"],  
+    "rating": 4.8,  
+    "instant_delivery": false  
+  },  
+  {  
+    "product_code": "P006",  
+    "product_name": "Trendy Kurti",  
+    "category": "Kurtis",  
+    "price": 32.50,  
+    "image_url": "https://example.com/images/product6.jpg",  
+    "sizes": ["S", "M", "L"],  
+    "colors": ["Aqua", "Purple"],  
+    "rating": 4.4,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P007",  
+    "product_name": "Casual Top",  
+    "category": "Tops",  
+    "price": 27.99,  
+    "image_url": "https://example.com/images/product7.jpg",  
+    "sizes": ["M", "L", "XL"],  
+    "colors": ["Navy", "White"],  
+    "rating": 4.1,  
+    "instant_delivery": false  
+  },  
+  {  
+    "product_code": "P008",  
+    "product_name": "Fashion Sandals",  
+    "category": "Sandals",  
+    "price": 45.00,  
+    "image_url": "https://example.com/images/product8.jpg",  
+    "sizes": ["6", "7", "8"],  
+    "colors": ["Red", "Pink"],  
+    "rating": 4.6,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P009",  
+    "product_name": "Long Evening Gown",  
+    "category": "Dresses",  
+    "price": 99.00,  
+    "image_url": "https://example.com/images/product9.jpg",  
+    "sizes": ["L", "XL"],  
+    "colors": ["Black", "Red"],  
+    "rating": 4.9,  
+    "instant_delivery": false  
+  },  
+  {  
+    "product_code": "P010",  
+    "product_name": "Printed Kurti",  
+    "category": "Kurtis",  
+    "price": 30.00,  
+    "image_url": "https://example.com/images/product10.jpg",  
+    "sizes": ["S", "M", "L"],  
+    "colors": ["Teal", "Mustard"],  
+    "rating": 4.2,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P011",  
+    "product_name": "Boho Top",  
+    "category": "Tops",  
+    "price": 28.99,  
+    "image_url": "https://example.com/images/product11.jpg",  
+    "sizes": ["XS", "S", "M"],  
+    "colors": ["Ivory", "Navy"],  
+    "rating": 4.0,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P012",  
+    "product_name": "Summer Sandals",  
+    "category": "Sandals",  
+    "price": 33.50,  
+    "image_url": "https://example.com/images/product12.jpg",  
+    "sizes": ["7", "8", "9"],  
+    "colors": ["White", "Pink"],  
+    "rating": 4.4,  
+    "instant_delivery": false  
+  },  
+  {  
+    "product_code": "P013",  
+    "product_name": "Maxi Dress",  
+    "category": "Dresses",  
+    "price": 66.85,  
+    "image_url": "https://example.com/images/product13.jpg",  
+    "sizes": ["S", "M", "L", "XL"],  
+    "colors": ["Red", "Green"],  
+    "rating": 4.7,  
+    "instant_delivery": true  
+  },  
+  {  
+    "product_code": "P014",  
+    "product_name": "Designer Sandals",  
+    "category": "Sandals",  
+    "price": 58.40,  
+    "image_url": "https://example.com/images/product14.jpg",  
+    "sizes": ["6", "7", "8"],  
+    "colors": ["Gold", "Silver"],  
+    "rating": 4.5,  
+    "instant_delivery": true  
+  }  
+]
